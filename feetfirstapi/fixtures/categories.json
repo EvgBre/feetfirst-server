@@ -1,0 +1,30 @@
+[
+    {
+      "model": "feetfirstapi.category",
+      "pk": 1,
+      "fields": {
+        "label": "Shoe"
+      }
+    },
+    {
+      "model": "feetfirstapi.category",
+      "pk": 2,
+      "fields": {
+        "label": "Sandal"
+      }
+    },
+    {
+      "model": "feetfirstapi.category",
+      "pk": 3,
+      "fields": {
+        "label": "Boot"
+      }
+    },
+    {
+      "model": "feetfirstapi.category",
+      "pk": 4,
+      "fields": {
+        "label": "Accessory"
+      }
+    }
+]

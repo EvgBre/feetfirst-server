@@ -1,0 +1,50 @@
+[
+    {
+        "model": "feetfirstapi.product",
+        "pk": 1,
+        "fields": {
+            "title": "Rainbow Sandals",
+            "description": "The most comfortable flips flops you will ever wear!",
+            "category_id": 2,
+            "image_url": "https://m.media-amazon.com/images/I/71ZQ9krYBZS._AC_UY1000_.jpg",
+            "price": 59.99,
+            "added_on": "2023-04-06"
+        }
+    },
+    {
+        "model": "feetfirstapi.product",
+        "pk": 2,
+        "fields": {
+            "title": "TOMS Slip Ons",
+            "description": "Casual beige Baja slip on.",
+            "category_id": 1,
+            "image_url": "https://www.toms.com/dw/image/v2/BDWV_PRD/on/demandware.static/-/Sites-toms-master-catalog/default/dw85377103/images/product-images/10018840-F.jpg?sw=900&sh=630&sm=fit&q=65",
+            "price": 39.99,
+            "added_on": "2023-03-15"
+        }
+    },
+    {
+        "model": "feetfirstapi.product",
+        "pk": 3,
+        "fields": {
+            "title": "Okabashi Flip Flops",
+            "description": "Adult Surf flip flops - Navy",
+            "category_id": 2,
+            "image_url": "https://www.okabashi.com/cdn/shop/products/surf-mens-flip-flops-navy-604595.jpg?v=1685995206",
+            "price": 39.99,
+            "added_on": "2023-04-06"
+        }
+    },
+    {
+        "model": "feetfirstapi.product",
+        "pk": 4,
+        "fields": {
+            "title": "Converse All Star",
+            "description": "Converse Chuck Taylor All Star High Top - White",
+            "category_id": 1,
+            "image_url": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ci5qxcnirgtzjpxztmvu/converse-chuck-taylor-all-star-high-top-unisex-shoe-xX439O.png",
+            "price": 69.99,
+            "added_on": "2023-03-15"
+        }
+    }
+]

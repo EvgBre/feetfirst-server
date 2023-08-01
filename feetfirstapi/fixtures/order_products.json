@@ -1,0 +1,20 @@
+[
+    {
+      "model": "feetfirstapi.orderproduct",
+      "pk": 1,
+      "fields": {
+        "product_id": 1,
+        "order_id": 1,
+        "quantity": 1
+      }
+    },
+    {
+      "model": "feetfirstapi.orderproduct",
+      "pk": 2,
+      "fields": {
+        "product_id": 3,
+        "order_id": 1,
+        "quantity": 1
+      }
+    }
+  ]

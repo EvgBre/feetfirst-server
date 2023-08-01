@@ -1,0 +1,14 @@
+[
+    {
+      "model": "feetfirstapi.user",
+      "pk": 1,
+      "fields": {
+        "username": "ebreland",
+        "first_name": "Evan",
+        "last_name": "Breland",
+        "email": "evanbreland@gmail.com",
+        "profile_image_url": "https://production-next-images-cdn.thumbtack.com/i/429113252554375179/width/1024.jpeg",
+        "uid": ""
+      }
+    }
+  ]

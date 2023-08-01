@@ -1,0 +1,13 @@
+[
+    {
+      "model": "feetfirstapi.order",
+      "pk": 1, 
+      "fields": {
+        "customer_id": 1,
+        "date_placed": "2023-07-10",
+        "total": 159.49,
+        "payment_type": "Apple Pay",
+        "is_completed": true
+      }
+    }
+  ]
