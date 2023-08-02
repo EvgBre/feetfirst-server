@@ -1,0 +1,18 @@
+[
+    {
+      "model": "feetfirstapi.favoriteproduct",
+      "pk": 1,
+      "fields": {
+        "product": 1,
+        "user": 1
+      }
+    },
+    {
+      "model": "feetfirstapi.favoriteproduct",
+      "pk": 2,
+      "fields": {
+        "product": 3,
+        "user": 1      
+      }
+    }
+]
