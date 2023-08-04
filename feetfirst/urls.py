@@ -16,12 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
-from feetfirstapi.views import UserView, ProductView
+from feetfirstapi.views import UserView, ProductView, CategoryView
 from feetfirstapi.views.auth import register_user, check_user
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'users', UserView, 'users')
 router.register(r'products', ProductView, 'product')
+router.register(r'categories', CategoryView, 'category')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
