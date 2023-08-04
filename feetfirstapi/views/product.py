@@ -28,8 +28,14 @@ class ProductView(ViewSet):
         Returns:
             Response -- JSON serialized list of game types
         """
-        product = Product.objects.all()
-        serializer = ProductSerializer(product, many=True)
+        products = Product.objects.all()
+        uid = request.META['HTTP_AUTHORIZATION']
+        user = User.objects.get(uid=uid)
+        for product in products:
+            product.favorite = len(FavoriteProduct.objects.filter(
+                user=user, product=product
+            )) > 0
+        serializer = ProductSerializer(products, many=True)
         return Response(serializer.data, status = status.HTTP_200_OK)
     
     def create(self, request):
@@ -98,5 +104,5 @@ class ProductSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = Product
-        fields = ('id', 'title', 'image_url', 'description','price','added_on', 'category_id')
+        fields = ('id', 'title', 'image_url', 'description','price','added_on', 'category_id', 'favorite')
         depth = 1
