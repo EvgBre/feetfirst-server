@@ -71,8 +71,8 @@ class ProductView(ViewSet):
     def favorite(self, request, pk):
         """Post request for a user to sign up for an event"""
 
-        product = Product.objects.get(uid=request.META['HTTP_AUTHORIZATION'])
-        user = User.objects.get(pk=pk)
+        user = User.objects.get(uid=request.META['HTTP_AUTHORIZATION'])
+        product = Product.objects.get(pk=pk)
         FavoriteProduct.objects.create(
             product=product,
             user=user
@@ -83,8 +83,8 @@ class ProductView(ViewSet):
     def unfavorite(self, request, pk):
         """Delete request for a user to leave an event"""
 
-        product = Product.objects.get(uid=request.META['HTTP_AUTHORIZATION'])
-        user = User.objects.get(pk=pk)
+        user = User.objects.get(uid=request.META['HTTP_AUTHORIZATION'])
+        product = Product.objects.get(pk=pk)
         favorite = FavoriteProduct.objects.get(
             product=product,
             user=user
