@@ -3,10 +3,10 @@
         "model": "feetfirstapi.product",
         "pk": 1,
         "fields": {
-            "title": "Rainbow Sandals",
-            "description": "The most comfortable flips flops you will ever wear!",
+            "title": "Mens Rainbow 301 Sandal - Sierra Brown",
+            "description": "Tackle sandal season with the 301 Leather Sandal from Rainbow! The 301 Leather Sandal offers a flip-flop style with super soft leather uppers and durable double stitched straps with soft nylon toe piece. The single layer arch provides optimal support and the textured rubber outsole delivers flexible traction.",
             "category_id": 2,
-            "image_url": "https://m.media-amazon.com/images/I/71ZQ9krYBZS._AC_UY1000_.jpg",
+            "image_url": "https://images.journeys.com/images/products/1_664323_FS.JPG",
             "price": 59.99,
             "added_on": "2023-04-06"
         }
@@ -15,10 +15,10 @@
         "model": "feetfirstapi.product",
         "pk": 2,
         "fields": {
-            "title": "TOMS Slip Ons",
-            "description": "Casual beige Baja slip on.",
+            "title": "Womens TOMS Alpargata Slip On Casual Shoe - Black Monochrome",
+            "description": "Keep it stylishly simple with the new Alpargata Slip On Casual Shoe from TOMS! The perfect wear-anywhere shoe, these classics feature breathable canvas uppers with a flexible rubber outsole.",
             "category_id": 1,
-            "image_url": "https://www.toms.com/dw/image/v2/BDWV_PRD/on/demandware.static/-/Sites-toms-master-catalog/default/dw85377103/images/product-images/10018840-F.jpg?sw=900&sh=630&sm=fit&q=65",
+            "image_url": "https://images.journeys.com/images/products/1_703360_ZM.JPG",
             "price": 39.99,
             "added_on": "2023-03-15"
         }
@@ -27,11 +27,11 @@
         "model": "feetfirstapi.product",
         "pk": 3,
         "fields": {
-            "title": "Okabashi Flip Flops",
-            "description": "Adult Surf flip flops - Navy",
-            "category_id": 2,
-            "image_url": "https://www.okabashi.com/cdn/shop/products/surf-mens-flip-flops-navy-604595.jpg?v=1685995206",
-            "price": 39.99,
+            "title": "The North Face Fastpack Hiker Waterproof Boot - Little Kid / Big Kid - Taupe Green / Mineral Gold",
+            "description": "Go exploring in style with the new Fastpack Hiker Waterproof Boot from The North Face! These trail-ready boots feature breathable recycled polyester mesh uppers, super soft collars, waterproof DryVent™ membranes, cushioned EVA footbeds for all-day comfort, and durable rubber outsoles for premium traction.",
+            "category_id": 3,
+            "image_url": "https://images.journeys.com/images/products/1_777051_ZM.JPG",
+            "price": 109.99,
             "added_on": "2023-04-06"
         }
     },
@@ -39,12 +39,108 @@
         "model": "feetfirstapi.product",
         "pk": 4,
         "fields": {
-            "title": "Converse All Star",
-            "description": "Converse Chuck Taylor All Star High Top - White",
+            "title": "Converse Chuck Taylor All Star Hi Sneaker - Optical White",
+            "description": "Both classic and iconic, the Converse Chuck Taylor All Star Hi exhibits timeless high-top sneaker style. Whether scribbled or sketched on, roughed up and scuffed from countless concerts and everyday sneaker love, or worn clean to pay homage to Old School hoops, the Converse All Star is what you make it: an authentic lifestyle sneaker with a blank canvas for expression.",
             "category_id": 1,
-            "image_url": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ci5qxcnirgtzjpxztmvu/converse-chuck-taylor-all-star-high-top-unisex-shoe-xX439O.png",
+            "image_url": "https://images.journeys.com/images/products/1_72923_ZM_THERO.JPG",
             "price": 69.99,
             "added_on": "2023-03-15"
+        }
+    },
+    {
+        "model": "feetfirstapi.product",
+        "pk": 5,
+        "fields": {
+            "title": "Womens Timberland Greenstride™ Motion 6 Low Hiker Shoe - Wheat",
+            "description": "Take on new adventures in style with the Greenstride™ Motion 6 Low Hiker Shoe from Timberland! This trail-ready shoe features durable leather and ReBOTL™ fabric uppers treated to repel water and stains with a Greenstride™ sole for comfort.",
+            "category_id": 3,
+            "image_url": "https://images.journeys.com/images/products/1_795710_ZM.JPG",
+            "price": 129.99,
+            "added_on": "2023-04-06"
+        }
+    },
+    {
+        "model": "feetfirstapi.product",
+        "pk": 6,
+        "fields": {
+            "title": "Womens TOMS Alpargata Slip On Casual Shoe - Black Monochrome",
+            "description": "Keep it stylishly simple with the new Alpargata Slip On Casual Shoe from TOMS! The perfect wear-anywhere shoe, these classics feature breathable canvas uppers with a flexible rubber outsole.",
+            "category_id": 1,
+            "image_url": "https://images.journeys.com/images/products/1_703360_ZM.JPG",
+            "price": 39.99,
+            "added_on": "2023-03-15"
+        }
+    },
+    {
+        "model": "feetfirstapi.product",
+        "pk": 7,
+        "fields": {
+            "title": "Womens adidas Ozelia Athletic Shoe - Black / Carbon",
+            "description": "Pay homage to the gamechanging style of the '90s with the new Ozelia Athletic Shoe from adidas! These retro-inspired sneakers rock a sleek design made with sturdy textile uppers, a snug-fitting silhouette, Adiprene cushioning for comfort, and durable rubber outsoles for flexible traction.",
+            "category_id": 1,
+            "image_url": "https://images.journeys.com/images/products/1_663076_ZM.JPG",
+            "price": 59.99,
+            "added_on": "2023-12-06"
+        }
+    },
+    {
+        "model": "feetfirstapi.product",
+        "pk": 8,
+        "fields": {
+            "title": "Womens Champion Hyper C Raw H Athletic Shoe - Black",
+            "description": "Push your sporty look into overtime this season with the new Hyper C Raw H Athletic Shoe from Champion! These pull-on high-tops feature breathable mesh uppers with elasticized collars for easy on and off, tonal logo details, and flexible rubber outsoles for traction.",
+            "category_id": 1,
+            "image_url": "https://images.journeys.com/images/products/1_648764_ZM_ALT1C.JPG",
+            "price": 79.99,
+            "added_on": "2023-03-01"
+        }
+    },
+    {
+        "model": "feetfirstapi.product",
+        "pk": 9,
+        "fields": {
+            "title": "Mens Birkenstock Arizona Sandal - Mocha",
+            "description": "Get down with the truest, most choice slide sandal around, the Birkenstock Arizona Sandal! Perfect for a laid-back afternoon, the Birkenstock Arizona Sandal features a synthetic leather upper and an anatomically correct suede-lined cork footbed molded to the contours of your foot, promoting comfort, balance, and support. Includes adjustable buckle straps for notching up that perfect fit, a flexible EVA outsole for lightweight shock absorption, and moisture-wicking dual layer jute for sandal preservation and durability.",
+            "category_id": 2,
+            "image_url": "https://images.journeys.com/images/products/1_281252_ZM_ALT1C.JPG",
+            "price": 109.99,
+            "added_on": "2023-04-06"
+        }
+    },
+    {
+        "model": "feetfirstapi.product",
+        "pk": 10,
+        "fields": {
+            "title": "Womens Birkenstock Mayari Sandal - Brown",
+            "description": "Spring into warmer weather with the new Mayari Sandal from Birkenstock! The Mayari Sandal boasts stylish comfort you can count on, featuring a feminine silhouette with slimmer buckle straps and crazy comfortable footbed that molds to the shape of your foot and cradles every step.",
+            "category_id": 2,
+            "image_url": "https://images.journeys.com/images/products/1_389719_ZM_ALT1C.JPG",
+            "price": 99.99,
+            "added_on": "2023-03-15"
+        }
+    },
+    {
+        "model": "feetfirstapi.product",
+        "pk": 11,
+        "fields": {
+            "title": "Mens Nature Crew Socks 5 Pack - Multicolor",
+            "description": "Showcase your love of the great outdoors with the new Nature Crew Socks 5 Pack for guys! Nature Crew Socks variety pack includes a five-pair assortment of classic crew-height socks with nature-themed graphics ranging from butterflies and tree frogs to mushrooms and flytraps.",
+            "category_id": 4,
+            "image_url": "https://images.journeys.com/images/products/1_747865_ZM.jpg",
+            "price": 19.99,
+            "added_on": "2022-01-06"
+        }
+    },
+    {
+        "model": "feetfirstapi.product",
+        "pk": 12,
+        "fields": {
+            "title": "Womens Varsity Crew Socks 5 Pack - Tie Dye / Multicolor",
+            "description": "Brighten up your sporty style with the new Varsity Crew Socks 5 Pack for ladies! This colorful variety pack features a five-pair assortment of classic crew socks with tie dye prints throughout.",
+            "category_id": 4,
+            "image_url": "https://images.journeys.com/images/products/1_706525_ZM.JPG",
+            "price": 18.99,
+            "added_on": "2022-01-20"
         }
     }
 ]
