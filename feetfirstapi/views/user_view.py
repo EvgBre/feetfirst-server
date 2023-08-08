@@ -44,7 +44,7 @@ class UserView(ViewSet):
         user.first_name = request.data['firstName']
         user.last_name = request.data['lastName']
         user.email = request.data['email']
-        user.username = request.data['username']
+        user.username = request.data['userName']
         user.profile_image_url = request.data['profileImageUrl']
         user.uid = uid
         user.save()
