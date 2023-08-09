@@ -18,3 +18,12 @@ class Product(models.Model):
     @favorite.setter
     def favorite(self, value):
         self.__favorite = value
+
+    @property
+    def incart(self):
+        """custom cart property"""
+        return self.__incart
+    
+    @incart.setter
+    def incart(self, value):
+        self.__incart = value

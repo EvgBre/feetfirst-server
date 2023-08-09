@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
-from feetfirstapi.views import UserView, ProductView, CategoryView, FavoriteProductView
+from feetfirstapi.views import UserView, ProductView, CategoryView, FavoriteProductView, OrderProductView, OrderView
 from feetfirstapi.views.auth import register_user, check_user
 
 router = routers.DefaultRouter(trailing_slash=False)
@@ -24,6 +24,8 @@ router.register(r'users', UserView, 'users')
 router.register(r'products', ProductView, 'product')
 router.register(r'categories', CategoryView, 'category')
 router.register(r'favorite_products', FavoriteProductView, 'favorite_product')
+router.register(r'order_products', OrderProductView, 'order_product')
+router.register(r'orders', OrderView, 'order')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
