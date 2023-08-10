@@ -15,11 +15,11 @@
         "model": "feetfirstapi.product",
         "pk": 2,
         "fields": {
-            "title": "Womens TOMS Alpargata Slip On Casual Shoe - Black Monochrome",
-            "description": "Keep it stylishly simple with the new Alpargata Slip On Casual Shoe from TOMS! The perfect wear-anywhere shoe, these classics feature breathable canvas uppers with a flexible rubber outsole.",
+            "title": "Mens Reebok Club C Revenge Athletic Shoe - White / Navy / Gold",
+            "description": "Lace up a double dose of retro style with the new Club C Revenge Athletic Shoe from Reebok! Boasting courtloads of throwback appeal, this classic sneaker rocks smooth leather uppers with signature side stripes and durable rubber sole for traction.",
             "category_id": 1,
-            "image_url": "https://images.journeys.com/images/products/1_703360_ZM.JPG",
-            "price": 39.99,
+            "image_url": "https://images.journeys.com/images/products/1_752481_ZM_ALT1C.JPG",
+            "price": 79.99,
             "added_on": "2023-03-15"
         }
     },
@@ -141,6 +141,42 @@
             "image_url": "https://images.journeys.com/images/products/1_706525_ZM.JPG",
             "price": 18.99,
             "added_on": "2022-01-20"
+        }
+    },
+    {
+        "model": "feetfirstapi.product",
+        "pk": 13,
+        "fields": {
+            "title": "Womens UGG® Classic Short II Boot - Chestnut",
+            "description": "The New Classic Short II Boot from UGG® offers revamped features without compromising classic style. Slip into the iconic look and cozy feel of the New Classic Short II Boot, featuring pretreated sheepskin uppers that repel moisture and protect against stains, plush fleece lining for unparalleled warmth and comfort, and new Treadlite by UGG™ outsole for 25% more traction and 16% more durability than the original EVA outsole.",
+            "category_id": 3,
+            "image_url": "https://images.journeys.com/images/products/1_410008_ZM_THERO.JPG",
+            "price": 179.99,
+            "added_on": "2023-06-17"
+        }
+    },
+    {
+        "model": "feetfirstapi.product",
+        "pk": 14,
+        "fields": {
+            "title": "Mens Champion Hyper C Future Athletic Shoe - Black / Gray",
+            "description": "Freshen up your sporty look with the new Hyper C Future Athletic Shoe from Champion! These slip-on sneakers feature a combination of breathable mesh and synthetic leather with an elasticized collar for easy on and off, elasticized vamp with iconic Champion script logo, and a flexible rubber outsole for traction.",
+            "category_id": 1,
+            "image_url": "https://images.journeys.com/images/products/1_696886_ZM_SSHERO.JPG",
+            "price": 89.99,
+            "added_on": "2023-06-17"
+        }
+    },
+    {
+        "model": "feetfirstapi.product",
+        "pk": 15,
+        "fields": {
+            "title": "Womens New Balance 574 Athletic Shoe - Red / Leopard",
+            "description": "Get moving with the lightweight comfort of the new 574 Athletic Shoe from New Balance! The sleek 574 Athletic Shoe rocks a classic design constructed with lightweight materials for a streamlined style that delivers premium comfort and casual good looks.",
+            "category_id": 1,
+            "image_url": "https://images.journeys.com/images/products/1_698011_ZM.JPG",
+            "price": 84.99,
+            "added_on": "2023-06-17"
         }
     }
 ]
