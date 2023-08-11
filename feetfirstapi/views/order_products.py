@@ -19,11 +19,12 @@ class OrderProductView(ViewSet):
 
     def list(self, request):
         """GET request for a list of users"""
-        order_products = OrderProduct.objects.all()
-        # order = request.query_params.get('order')
-        # order_products = order_products.filter(order_id=order)
-        serializer = OrderProductSerializer(order_products, many=True, context={'request': request})
-        return Response(serializer.data)
+        uid = request.META['HTTP_AUTHORIZATION']
+        user = User.objects.get(uid=uid)
+        order_products = OrderProduct.objects.filter(order_id__customer_id=user)
+
+        serializer = OrderProductSerializer(order_products, many=True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
     
 class OrderProductSerializer(serializers.ModelSerializer):
   """JSON serializer for categories"""
