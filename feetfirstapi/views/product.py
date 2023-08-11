@@ -31,15 +31,16 @@ class ProductView(ViewSet):
         products = Product.objects.all()
         uid = request.META['HTTP_AUTHORIZATION']
         user = User.objects.get(uid=uid)
-        order = request.query_params.get('order')
+        orders = Order.objects.filter(customer_id=user)
         for product in products:
             product.favorite = len(FavoriteProduct.objects.filter(
                 user=user, product=product
             )) > 0
         for product in products:
             product.incart = len(OrderProduct.objects.filter(
-                order_id=order, product_id=product
-            )) > 0
+            order_id__in=orders,  # Using the retrieved Order instances
+            product_id=product,
+        )) > 0
         serializer = ProductSerializer(products, many=True)
         return Response(serializer.data, status = status.HTTP_200_OK)
     
